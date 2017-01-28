@@ -19,13 +19,19 @@ footer {
   width: 100%;
 }
 
-.nav {
-  top: 0px;
-  margin-top: 20px;
-  font-weight: bold;
+body {
+  padding-top: 0px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
 }
 
-.logo {
+.nav {
+  top: 0px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid lightgrey;
+  padding-bottom: 5px;
+  font-weight: bold;
   height: 35px;
   display: inline-block;
   font-size: 32px;
@@ -36,16 +42,20 @@ footer {
     1px 1px 0 #000;
 }
 
-.logo img {
+.nav a {
+  color: white;
+}
+
+.nav img {
   width: 40px;
   height: 40px;
 }
 
 @media only screen and (max-width : 568px) and (min-width : 321px) {
-  .logo {
+  .nav {
     font-size: 25px;
   }
-  .logo img {
+  .nav img {
     width: 30px;
     height: 30px;
   }
