@@ -13,9 +13,9 @@
   </head>
   <body>
     <div class="wrapper">
-      <div>
-        <h1>{{ site.title | default: site.github.repository_name }}</h1>
-      </div>
+      <nav>
+        {% include header.html %}
+      </nav>
       <header>
         {% include sidebar.html %}
       </header>
