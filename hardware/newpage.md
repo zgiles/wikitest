@@ -1,6 +1,7 @@
 ---
 title: New Page
 layout: default
+modal-id: newpage
 category: hardware
 ---
 
