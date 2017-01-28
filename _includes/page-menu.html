@@ -9,8 +9,8 @@
         </a>
         {% if section.sub == true %}
           <ul>
-            {% for page in site.categories[{{section.id}}] reversed %}
-                {% if page.title %}
+            {% for page in site.pages %}
+                {% if page.title and page.category == section.id %}
                   <li>
                     <a href="/{{section.id}}/{{page.modal-id}}"><span>{{page.title}}</span></a>
                   </li>
