@@ -30,20 +30,20 @@ body {
   top: 0px;
   margin-bottom: 20px;
   border-bottom: 1px solid black;
-  padding-bottom: 5px;
   font-weight: bold;
   width: 100%;
   display: inline-block;
   font-size: 32px;
-  text-shadow: 
-    -1px -1px 0 #000,
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000;
+  // text-shadow: 
+  //  -1px -1px 0 #000,
+  //  1px -1px 0 #000,
+  //  -1px 1px 0 #000,
+  //  1px 1px 0 #000;
 }
 
 .nav a {
-  color: white;
+  // color: white;
+  color: black;
 }
 
 .nav img {
@@ -52,7 +52,7 @@ body {
 }
 
 .nav span {
-  vertial-align: top;
+  vertical-align: top;
 }
 
 @media only screen and (max-width : 568px) and (min-width : 321px) {
