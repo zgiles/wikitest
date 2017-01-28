@@ -1,5 +1,5 @@
 ---
-layout: section
+layout: default
 title: NanoStation
 modal-id: nanostation
 category: hardware
