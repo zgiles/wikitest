@@ -13,14 +13,16 @@
   </head>
   <body>
     <div class="wrapper">
-      <header>
+      <div>
         <h1>{{ site.title | default: site.github.repository_name }}</h1>
         <p>{{ site.description | default: site.github.project_tagline }}</p>
+      </div>
+      <header>
+        {% include sidebar.html %}
       </header>
       <section>
 
       {{ content }}
-      {% include sidebar.html %}
 
       </section>
       <footer>
