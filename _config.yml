@@ -1,0 +1,11 @@
+title: Wikitest
+description: "Testing Wikis..."
+
+sections:
+  - title: Networking
+    id: networking
+    sub: true
+
+# Build settings
+markdown: kramdown
+permalink: none

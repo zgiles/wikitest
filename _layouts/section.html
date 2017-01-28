@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <body id="page-top" class="index">
+        {% include header.html %}
+        <div class="full-width" id="content-span">
+            <div id="content-inner">
+                <div class="container content fixed-width">
+                                {% for post in site.categories[{{page.category}}] reversed %}
+                                    {% unless post.unpublished == true %}
+                                        <div class="api-item" id="{{post.modal-id}}">
+                                            {% if post.title %} 
+                                                <h3>{{ post.title }}</h3>
+                                            {% endif %}
+                                            {{ post.content }}
+                                        </div>
+                                    {% endunless %}
+                                {% endfor %}
+                </div>                      
+            </div>
+        </div>
+    </body>
+</html>
