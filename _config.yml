@@ -12,3 +12,5 @@ sections:
 # Build settings
 markdown: kramdown
 permalink: none
+theme: jekyll-theme-minimal
+
