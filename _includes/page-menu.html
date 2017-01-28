@@ -1,5 +1,5 @@
-<div class="helper-menu">
-  This following is the by-post menu
+<div class="page-menu">
+ The following is the by-page listing
   <ul>
     {% for section in site.sections %}
       <li {% if section.sub == true %}class="has-sub"{% endif %}>
@@ -9,14 +9,12 @@
         </a>
         {% if section.sub == true %}
           <ul>
-            {% for post in site.categories[{{section.id}}] reversed %}
-              {% unless post.unpublished == true %}
-                {% if post.title %}
+            {% for page in site.categories[{{section.id}}] reversed %}
+                {% if page.title %}
                   <li>
-                    <a href="/{{section.id}}/#{{post.modal-id}}"><span>{{post.title}}</span></a>
+                    <a href="/{{section.id}}/{{page.modal-id}}"><span>{{page.title}}</span></a>
                   </li>
                 {% endif %}
-              {% endunless %}
             {% endfor %}
           </ul>
         {% endif %}
