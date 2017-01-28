@@ -64,3 +64,21 @@ body {
     height: 30px;
   }
 }
+
+.mainnav {
+  float: right;
+
+  @media only screen and (max-width : 320px) {
+    float: none;
+    margin-left: 50px;  
+  }
+  a { 
+    &:not(:first-of-type):before {
+      content: "| ";
+    }
+  }
+  input {
+    text-align: center;
+    width: 120px;
+  }
+}
