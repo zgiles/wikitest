@@ -65,8 +65,9 @@ body {
   }
 }
 
-.mainnav {
+.menu {
   float: right;
+  font-size: 16px;
 
   @media only screen and (max-width : 320px) {
     float: none;
