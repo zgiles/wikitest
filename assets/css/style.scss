@@ -24,3 +24,11 @@ footer {
   margin-top: 20px;
   font-weight: bold;
 }
+
+.logo {
+ height: 35px;
+ display: inline-block;
+ font-size: 32px;
+ img {
+  @include square(40px);
+}
