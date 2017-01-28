@@ -1,6 +1,6 @@
 ---
 layout: default
-title:
+title: Basics
 modal-id: basics
 category: networking
 ---
