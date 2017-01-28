@@ -1,4 +1,4 @@
 ---
-layout: section
+layout: default
 title: Networking
 ---
