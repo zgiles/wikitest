@@ -5,10 +5,10 @@ modal-id: nanostation
 category: hardware
 ---
 
-### Nanostation
+# Nanostation
 This is the nanostation are... super awesome
 
-### Some other hardware
+# Some other hardware
 * This that is great
 More Stuff
 
