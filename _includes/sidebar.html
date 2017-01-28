@@ -11,7 +11,7 @@ Pages:
             {% for page in site.pages %}
                 {% if page.title and page.category == section.id %}
                   <li>
-                    <a href="/{{section.id}}/{{page.modal-id}}"><span>{{page.title}}</span></a>
+                    <a href="/{{section.title | downcase}}/{{page.title | downcase}}"><span>{{page.title}} DOWNCASED</span></a>
                   </li>
                 {% endif %}
             {% endfor %}
