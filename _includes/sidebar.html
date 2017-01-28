@@ -1,2 +1,23 @@
-{% include page-menu.html %}
-
+<div class="page-menu">
+Pages:
+  <ul>
+    {% for section in site.sections %}
+      <li {% if section.sub == true %}class="has-sub"{% endif %}>
+        <a href="/{{section.id}}" data-id="{{section.id}}" class="section-anchor {% if forloop.first %}top-a{% endif %} {% if forloop.last %}bottom-a{% endif %}">
+          <span>{{section.title}}</span>
+        </a>
+        {% if section.sub == true %}
+          <ul>
+            {% for page in site.pages %}
+                {% if page.title and page.category == section.id %}
+                  <li>
+                    <a href="/{{section.id}}/{{page.modal-id}}"><span>{{page.title}}</span></a>
+                  </li>
+                {% endif %}
+            {% endfor %}
+          </ul>
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+</div>
