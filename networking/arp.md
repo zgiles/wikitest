@@ -11,3 +11,5 @@ arp -a
 ```
 Hah.
 [New Page](NewPage.md) has everything you need
+
+Make sure to first read about Networking [[Basics]]
