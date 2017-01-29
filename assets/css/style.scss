@@ -146,12 +146,12 @@ section h2.title {
 .hide:target {
   display: none;
 }
-.hide:target + .show {
-  display: inline;
-}
-.hide:target,
+// .hide:target + .show,
 .hide:target ~ .details {
   display: block;
+}
+.hide:target + .show {
+  display: inline;
 }
 
 a.show, a.hide {
