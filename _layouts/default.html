@@ -36,9 +36,10 @@
       {% endif %}
       {{ content }}
       </section>
-      <footer>
-        <p><small>NYCMesh - {{ site.url }} - {{  site.github.build_revision }} - {{ site.github.repository_url }}</small></p>
-      </footer>
+      <div class="push"></div>
+    </div>
+    <div class="footer">
+      <p><small>NYCMesh - {{ site.url }} - {{  site.github.build_revision }} - {{ site.github.repository_url }}</small></p>
     </div>
     <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
   </body>

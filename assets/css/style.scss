@@ -12,13 +12,26 @@ header {
   color: #727272;
 }
 
-footer {
+div.footer {
   width: 100%;
   color: #a0a0a0;
 }
 
 .wrapper {
   width: 100%;
+
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -155px;
+}
+
+.footer, .push {
+    height: 155px;
+}
+
+html {
+  height: 100%;
 }
 
 body {
@@ -27,6 +40,7 @@ body {
   padding-bottom: 30px;
   padding-left: 30px;
   color: black;
+  height: 100%;
 }
 
 header p, ul, ol, table, pre, dl {
