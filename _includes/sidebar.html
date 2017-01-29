@@ -5,9 +5,7 @@ Pages:
     {% for cat in catpages %}
       {% if cat.name != "" %}
       <li class="has-sub">
-        <a href="/{{cat.name}}" data-id="{{cat.name}}" class="section-anchor {% if forloop.first %}top-a{% endif %} {% if forloop.last %}bottom-a{% endif %}"><span>{{cat.name | capitalize}}</span></a>
-        <a id="hide-{{cat.name}}" href="#hide-{{cat.name}}" class="hide">(+)</a>
-        <a id="show-{{cat.name}}" href="#show-{{cat.name}}" class="show">(-)</a>
+        <a href="/{{cat.name}}" data-id="{{cat.name}}" class="section-anchor {% if forloop.first %}top-a{% endif %} {% if forloop.last %}bottom-a{% endif %}"><span>{{cat.name | capitalize}}</span></a>&nbsp;<a id="hide-{{cat.name}}" href="#hide-{{cat.name}}" class="hide">(+)</a>&nbsp;<a id="show-{{cat.name}}" href="#show-{{cat.name}}" class="show">(-)</a>
           <ul id="{{cat.name}}-sublinks" class="details">
             {% for page in cat.items %}
                 {% if page.title %}
