@@ -20,6 +20,7 @@
       </header>
       <section>
       <h2>{{page.title}}</h2>
+      <h6>{{page.url | replace_first: "/", "" | replace: "/", " > "  }}</h6>
       {{ content }}
       </section>
       <footer>
