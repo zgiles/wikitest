@@ -1,6 +1,8 @@
 ---
 layout: default
-title: 
+title: nycmeshwiki
+showtitle: False
+showbread: False
 ---
 
 ## The NYCMesh Project is a community effort
@@ -10,6 +12,7 @@ title:
 * More Stuff
 
 ## How to get connected
+* Get a router
 
 ## Other stuff
 * This is maybe not the best layout...

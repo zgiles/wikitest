@@ -19,8 +19,10 @@
         {% include sidebar.html %}
       </header>
       <section>
-      {% if page.title != "" %}
+      {% if page.showtitle %}
         <h2 class="title">{{ page.title }}</h2>
+      {% endif %}
+      {% if page.showbread %}
         <h6>
           {% assign crumbpath = page.url | split: "." | first | replace_first: "/", "" | split: "/" %}
           {% for crumb in crumbpath %}
