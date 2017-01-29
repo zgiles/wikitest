@@ -9,3 +9,5 @@ category: overview
 This is a Wiki Test that has some links.  
 * For example a Link to [New Page](hardware/newpage)
 
+{{ site.pages }}
+
