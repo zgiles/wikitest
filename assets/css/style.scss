@@ -50,6 +50,18 @@ header p, ul, ol, table, pre, dl {
   padding-left: 20px;
 }
 
+header ul {
+  list-style: none;
+}
+
+header ul li:before {
+  content: "\009B \0020";
+}
+
+header ul.active li:before {
+  content: "\25BE \0020";
+}
+
 section h2.title {
   margin: 0px 0px 0px 0px;
 }
