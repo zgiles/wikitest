@@ -19,8 +19,8 @@
         {% include sidebar.html %}
       </header>
       <section>
-      <h2>{{page.title}}</h2>
-      <h6>{{page.url | replace_first: "/", "" | replace: "/", " > "  }}</h6>
+      <h2 class="title">{{ page.title }}</h2>
+      <h6>{{ page.url | replace_first: "/", "" | replace: "/", " > " | split: "." | first  }}</h6>
       {{ content }}
       </section>
       <footer>
