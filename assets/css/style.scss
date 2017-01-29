@@ -51,21 +51,9 @@ body {
   height: 100%;
 }
 
-header p, ul, ol, table, pre, dl {
+header ul, header ol, {
   margin: 0px;
   padding-left: 20px;
-}
-
-header ul {
-  list-style: none;
-}
-
-header ul li:before {
-  content: "\009B \0020";
-}
-
-header ul.active li:before {
-  content: "\25BE \0020";
 }
 
 section h2.title {
