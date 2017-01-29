@@ -6,7 +6,7 @@ layout: default
 This page is an example. Write using markdown. Edit on github. Fork, make changes. make pull request  
 Woo. All in github pages. no server. no auth to manage. no comments. no spam  
 
-title: nycmeshwiki
+
 ## How you can help
 * For example a Link to relative page [Hardware - New Page](hardware/newpage)
 * More Stuff
