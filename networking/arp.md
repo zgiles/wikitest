@@ -10,8 +10,7 @@ Learn more about
 arp -a
 ```
 Hah.
-[New Page]({% page_url "New Page" %})
-[Basics]({% page_url Basics %})
+[New Page]({% post_url "New Page" %})
 [Basics]({% post_url Basics %}) 
 
 Make sure to first read about Networking [[Basics]]
