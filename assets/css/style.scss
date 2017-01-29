@@ -4,21 +4,23 @@
 @import "{{ site.theme }}";
 
 section {
-  width: 85%;
+  width: 84%;
 }
 
 header {
-  width: 10%;
+  width: 15%;
   color: #727272;
 }
 
 footer {
   width: 100%;
   color: #a0a0a0;
+  position: initial;
+  bottom: initial;
 }
 
 footer, .push {
-    height: 155px;
+  height: 50px;
 }
 
 .wrapper {
@@ -27,7 +29,7 @@ footer, .push {
   min-height: 100%;
   height: auto !important;
   height: 100%;
-  margin: 0 auto -155px;
+  margin: 0 auto -30px;
 }
 
 html {
@@ -36,15 +38,16 @@ html {
 
 body {
   padding-top: 0px;
-  padding-right: 30px;
+  padding-right: 10px;
   padding-bottom: 30px;
-  padding-left: 30px;
+  padding-left: 10px;
   color: black;
   height: 100%;
 }
 
 header p, ul, ol, table, pre, dl {
   margin: 0px;
+  padding-left: 20px;
 }
 
 section h2.title {
