@@ -22,7 +22,8 @@
       <h2 class="title">{{ page.title }}</h2>
       <h6>{{ page.url | split: "." | first | replace_first: "/", "" | replace: "/", " > " | camelize }}</h6>
       <h6>
-        {% for crumb in page.url | split: "." | first | replace_first: "/", "" | split: "/" %}
+        {% assign crumbpath = page.url | split: "." | first | replace_first: "/", "" | split: "/" %}
+        {% for crumb in crumbpath %}
           {% if forloop.last %} 
             {{ crumb | capitalize }}
           {% else %}
