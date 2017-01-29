@@ -10,5 +10,5 @@ Learn more about
 arp -a
 ```
 Hah.
-[Basics](networking/basics) 
+[Basics](/networking/basics) 
 
