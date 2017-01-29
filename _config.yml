@@ -1,13 +1,4 @@
 title: "NYC Mesh - Wiki"
-description: "NYC Mesh - Wiki"
-
-sections:
-  - title: Networking
-    id: networking
-    sub: true
-  - title: Hardware
-    id: hardware
-    sub: true
 
 # Build settings
 markdown: kramdown

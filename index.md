@@ -1,7 +1,6 @@
 ---
 layout: default
 title: WikiTest Main Page
-category: overview
 ---
 
 # Wiki Test

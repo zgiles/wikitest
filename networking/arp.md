@@ -1,7 +1,6 @@
 ---
 layout: default
 title: ARP
-modal-id: arp
 category: networking
 ---
 ### ARP

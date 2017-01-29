@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Basics
-modal-id: basics
 category: networking
 ---
 This is a section on the basics of networking
