@@ -19,9 +19,8 @@
         {% include sidebar.html %}
       </header>
       <section>
-      {% if page.hidetitle != true or page.title != "" %}
+      {% unless page.hidetitle %}
         <h2 class="title">{{ page.title }}</h2>
-      {% endif %}
         <h6>
           {% assign crumbpath = page.url | split: "." | first | replace_first: "/", "" | split: "/" %}
           {% for crumb in crumbpath %}
@@ -33,6 +32,7 @@
             {% endif %}
           {% endfor %}
         </h6>
+      {% endunless %}
       {{ content }}
       </section>
       <div class="push"></div>
