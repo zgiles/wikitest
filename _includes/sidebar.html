@@ -25,8 +25,9 @@ Pages:
 <div class="page-menu">
 Pages:
   <ul>
-    {% assign catpages = site.pages | group_by:"category" %}
+    {% assign catpages = site.pages | group_by:"category" | sort: "name" %}
     {% for cat in catpages %}
+      {% if cat.name != "" %}
       <li class="has-sub">
         <a href="/{{cat.name}}" data-id="{{cat.name}}" class="section-anchor {% if forloop.first %}top-a{% endif %} {% if forloop.last %}bottom-a{% endif %}">
           <span>{{cat.name | capitalize}}</span>
@@ -41,6 +42,7 @@ Pages:
             {% endfor %}
           </ul>
       </li>
+      {% endif %}
     {% endfor %}
   </ul>
 </div>
