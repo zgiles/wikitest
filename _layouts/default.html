@@ -21,6 +21,15 @@
       <section>
       <h2 class="title">{{ page.title }}</h2>
       <h6>{{ page.url | split: "." | first | replace_first: "/", "" | replace: "/", " > " | camelize }}</h6>
+      <h6>
+        {% for crumb in page.url | split: "." | first | replace_first: "/", "" | split: "/" %}
+          {% if forloop.last %} 
+            {{ crumb | capitalize }}
+          {% else %}
+            {{ crumb | capitalize }} > 
+          {% endif %}
+        {% endfor %}
+      </h6>
       {{ content }}
       </section>
       <footer>
