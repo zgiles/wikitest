@@ -5,11 +5,17 @@
 
 section {
   width: 84%;
+  @media only screen and (max-width : 500px) {
+    width: 100%;
+  }
 }
 
 header {
   width: 15%;
   color: #727272;
+  @media only screen and (max-width : 500px) {
+    width: 100%;
+  }
 }
 
 footer {
