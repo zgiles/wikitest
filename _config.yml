@@ -6,5 +6,6 @@ gems:
 # Build settings
 markdown: kramdown
 permalink: none
+layout: default
 theme: jekyll-theme-minimal
 
