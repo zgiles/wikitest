@@ -72,6 +72,10 @@ section h2.title {
   margin: 0px 0px 0px 0px;
 }
 
+@media print, screen and (max-width: 960px) {
+  header {padding-right: 320px;}
+}
+
 .nav {
   top: 0px;
   margin-bottom: 20px;
