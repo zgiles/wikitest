@@ -12,7 +12,7 @@ Pages:
             {% for page in cat.items %}
                 {% if page.title %}
                   <li>
-                    <a href="{{page.url}}"><span>{{page.title}}</span></a>
+                    <a href="{{page.url | remove: '.html' }}"><span>{{page.title}}</span></a>
                   </li>
                 {% endif %}
             {% endfor %}
