@@ -13,3 +13,7 @@ This is a Wiki Test that has some links.
   {{ p.category }}
 {% endfor %}
 
+{% assign catpages = site.pages | group_by:"category" %}
+{% for p in catpages %}
+  {{ p }}
+{% endfor %}
