@@ -20,7 +20,7 @@
       </header>
       <section>
       <h2 class="title">{{ page.title }}</h2>
-      <h6>{{ page.url | replace_first: "/", "" | replace: "/", " > " | split: "." | first | capitalize  }}</h6>
+      <h6>{{ page.url | replace_first: "/", "" | split: "." | first | split: "/" | capitalize | join: " > " }}</h6>
       {{ content }}
       </section>
       <footer>
