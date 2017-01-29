@@ -10,6 +10,5 @@ Learn more about
 arp -a
 ```
 Hah.
-[Basics](basics) 
+[Basics](networking/basics) 
 
-Make sure to first read about Networking [[Basics]]

@@ -3,10 +3,16 @@ layout: default
 title: WikiTest Main Page
 ---
 
-# Wiki Test
+# Wiki Test  
 
-This is a Wiki Test that has some links.
+This is a Wiki Test that has some links:
 * For example a Link to [Hardware - New Page](hardware/newpage)
-* For example a Link to [NewPage](newpage)
-* For example a Link to [New Page](new page)
+
+
+# Nanostation
+This is the nanostation are... super awesome
+
+# Some other hardware
+* This that is great
+More Stuff
 
