@@ -1,5 +1,7 @@
 title: "NYC Mesh - Wiki"
 
+gems: [jekyll-wikilinks-plugins]
+
 # Build settings
 markdown: kramdown
 permalink: none
