@@ -19,7 +19,9 @@ Woo. All in github pages. no server. no auth to manage. no comments. no spam
 ## Other stuff
 * This is maybe not the best layout...
 
-Simple Table.. close enough  
+Simple Table.. close enough   
+
+
 | Connectivity | Features 
 | People | Hardware
 
