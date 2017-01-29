@@ -5,9 +5,9 @@ Pages:
     {% for cat in catpages %}
       {% if cat.name != "" %}
       <li class="has-sub">
-        <a href="/{{cat.name}}" onClick="swap('{{cat.name}}-sublinks')" data-id="{{cat.name}}" class="section-anchor {% if forloop.first %}top-a{% endif %} {% if forloop.last %}bottom-a{% endif %}">
+        <span onClick="swap('{{cat.name}}-sublinks')" data-id="{{cat.name}}" class="section-anchor {% if forloop.first %}top-a{% endif %} {% if forloop.last %}bottom-a{% endif %}">
           <span>{{cat.name | capitalize}}</span>
-        </a>
+        </span>
           <ul id="{{cat.name}}-sublinks">
             {% for page in cat.items %}
                 {% if page.title %}
