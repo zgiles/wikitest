@@ -26,7 +26,8 @@
           {% assign crumbpath = page.url | split: "." | first | replace_first: "/", "" | split: "/" %}
           {% for crumb in crumbpath %}
             {% if forloop.last %} 
-              {{ crumb | capitalize }}
+              <!-- {{ crumb | capitalize }} -->
+              {{ page.title }}
             {% else %}
               {{ crumb | capitalize }} > 
             {% endif %}
