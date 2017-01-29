@@ -19,17 +19,19 @@
         {% include sidebar.html %}
       </header>
       <section>
-      <h2 class="title">{{ page.title }}</h2>
-      <h6>
-        {% assign crumbpath = page.url | split: "." | first | replace_first: "/", "" | split: "/" %}
-        {% for crumb in crumbpath %}
-          {% if forloop.last %} 
-            {{ crumb | capitalize }}
-          {% else %}
-            {{ crumb | capitalize }} > 
-          {% endif %}
-        {% endfor %}
-      </h6>
+      {% if page.title != "" %}
+        <h2 class="title">{{ page.title }}</h2>
+        <h6>
+          {% assign crumbpath = page.url | split: "." | first | replace_first: "/", "" | split: "/" %}
+          {% for crumb in crumbpath %}
+            {% if forloop.last %} 
+              {{ crumb | capitalize }}
+            {% else %}
+              {{ crumb | capitalize }} > 
+            {% endif %}
+          {% endfor %}
+        </h6>
+      {% endif %}
       {{ content }}
       </section>
       <footer>

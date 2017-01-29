@@ -1,15 +1,15 @@
 ---
 layout: default
-title: WikiTest Main Page
+title: 
 ---
 
-# Wiki Test
+## The NYCMesh Project is a community effort
+
+## How you can help
 * For example a Link to [Hardware - New Page](hardware/newpage)
-
-# Nanostation
-This is the nanostation are... super awesome
-
-# Some other hardware
-* This that is great
 * More Stuff
 
+## How to get connected
+
+## Other stuff
+* This is maybe not the best layout...
