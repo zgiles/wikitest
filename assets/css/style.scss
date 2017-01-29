@@ -136,8 +136,8 @@ section h2.title {
   font-size: 16px;
   height: 50px;
   text-align: center;
-  @media only screen and (max-width : 700px) {
-    float: none;
+  @media only screen and (max-width : 800px) {
+    float: left;
   }
   a { 
     &:not(:first-of-type):before {
