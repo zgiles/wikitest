@@ -10,6 +10,8 @@ Learn more about
 arp -a
 ```
 Hah.
-[New Page](NewPage.md) has everything you need
+[New Page]({% page_url "New Page" %})
+[Basics]({% page_url Basics %})
+[Basics]({% post_url Basics %}) 
 
 Make sure to first read about Networking [[Basics]]
