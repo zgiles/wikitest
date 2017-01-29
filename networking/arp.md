@@ -10,6 +10,6 @@ Learn more about
 arp -a
 ```
 Hah.
-[Basics]({% post_url Basics %}) 
+[Basics](basics.md) 
 
 Make sure to first read about Networking [[Basics]]
