@@ -85,7 +85,6 @@ section h2.title {
   height: 50px;
   display: inline-block;
   @media only screen and (max-width : 700px) {
-//    width: initial;
     height: initial;
   }
 }
@@ -104,6 +103,9 @@ section h2.title {
 .nav span {
   vertical-align: text-top;
   margin: 12px 0 12px 0;
+  @media only screen and (max-width : 700px) {
+    margin: 0 0 0 0;
+  }
 }
 
 /*
