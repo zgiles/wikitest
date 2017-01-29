@@ -26,6 +26,10 @@ body {
   padding-left: 30px;
 }
 
+header p, ul, ol, table, pre, dl {
+  margin: 0px;
+}
+
 .nav {
   top: 0px;
   margin-bottom: 20px;
