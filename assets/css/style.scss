@@ -150,3 +150,8 @@ section h2.title {
 .hide:target ~ .details {
   display: block;
 }
+
+a.show, a.hide {
+ color: black;
+ text-decoration: none; 
+}
