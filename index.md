@@ -8,7 +8,7 @@ NYC Mesh is a community owned network in the New York City area. [Join our netwo
 This wiki serves as our primary public documentation. For more information about editing this wiki, visit [Wiki](/wiki)
 
 | [Getting Started](/howto/gettingstarted) | [Hardware](/hardware)
-| [Networking and Architecture](/network) | x
+| [Networking and Architecture](/networking) | x
 {: .balancedtable }
 
 
