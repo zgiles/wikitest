@@ -1,7 +1,7 @@
 <div class="page-menu">
 Pages:
   <ul>
-    {% assign catpages = site.pages | group_by:"category" | sort: "name" %}
+    {% assign catpages = site.pages | group_by:"category" | sort:"name" %}
     {% for cat in catpages %}
       {% if cat.name != "" %}
       <li class="has-sub">
@@ -9,7 +9,8 @@ Pages:
         <a id="hide-{{cat.name}}" href="#hide-{{cat.name}}" class="hide">(+)</a>
         <a id="show-{{cat.name}}" href="#show-{{cat.name}}" class="show">(-)</a>
           <ul id="{{cat.name}}-sublinks" class="details">
-            {% for page in cat.items %}
+            {% assign subpages = cat.items | sort:"title" %}
+            {% for page in subpages %}
                 {% if page.title %}
                   <li>
                     <a href="{{page.url | remove: '.html' }}"><span>{{page.title}}</span></a>
