@@ -1,7 +1,7 @@
 ---
 layout: default
 title: NanoStation
-category: hardware
+category: test
 ---
 
 # Nanostation

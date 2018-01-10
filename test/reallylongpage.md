@@ -1,6 +1,6 @@
 ---
 title: Really Long Page
-category: hardware
+category: test
 ---
 # Invitum coniuge ima Nereida medio
 

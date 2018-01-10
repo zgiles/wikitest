@@ -87,6 +87,16 @@ table {
   border-collapse:collapse;
 }
 
+.balancedtable {
+  width:50%;
+}
+.balancedtable > tbody > tr > td {
+    text-align: center;
+    width: 50%;
+    border: 5px solid white;
+    background: #f9f9f9;
+}
+
 th, td {
   text-align:left;
   padding:5px 10px;

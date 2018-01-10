@@ -1,26 +1,19 @@
 ---
 layout: default
+hidetitle: true
 ---
 
-## The NYCMesh Project is a community effort
-This page is an example. Write using markdown. Edit on github. Fork, make changes. make pull request  
-Woo. All in github pages. no server. no auth to manage. no comments. no spam  
+## NYC Mesh Project wiki 
+NYC Mesh is a community owned network in the New York City area. [Join our network through our main page.](https://nycmesh.net/join)  
+This wiki serves as our primary public documentation. For more information about editing this wiki, visit [Wiki](/wiki)
 
-
-## How you can help
-* For example a Link to relative page [Hardware - New Page](hardware/newpage)
-* More Stuff
-
-
-## How to get connected
-* Get a router
+| [Getting Started](/howto/gettingstarted) | [Hardware](/hardware)
+| [Networking and Architecture](/network) | x
+{: .balancedtable }
 
 
 ## Other stuff
 * This is maybe not the best layout...
-
-
-Simple Table.. close enough   
 
 
 | Connectivity | Features 
