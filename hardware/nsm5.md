@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Ubiquiti Nanostation M5
-category: hardware
+category: Hardware
 ---
 It's a router
 

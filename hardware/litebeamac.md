@@ -1,6 +1,6 @@
 ---
 layout: default
 title: Ubiquiti Litebeam AC
-category: hardware
+category: Hardware
 ---
 Also a radio

@@ -1,7 +1,7 @@
 ---
 title: New Page
 layout: default
-category: software 
+category: Software 
 ---
 
 # This is a pretty sweet new page that has lots of features..

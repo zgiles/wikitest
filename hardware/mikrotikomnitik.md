@@ -1,7 +1,7 @@
 ---
 layout: default
 title: MikroTik OmniTik
-category: hardware
+category: Hardware
 ---
 
 a router

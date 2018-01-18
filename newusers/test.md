@@ -1,7 +1,7 @@
 ---
 title: New Page
 layout: default
-category: newusers
+category: New Users
 ---
 
 # This is a pretty sweet new page that has lots of features..

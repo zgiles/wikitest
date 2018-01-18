@@ -1,7 +1,7 @@
 ---
 layout: default
 title: MikroTik Powerbox Pro
-category: hardware
+category: Hardware
 ---
 
 another box

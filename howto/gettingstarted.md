@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Getting Started
-category: howto
+category: How To
 ---
 
 Get a radio. Done

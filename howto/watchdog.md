@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Watchdog
-category: howto
+category: How To
 ---
 
 Wireless networks have a bit of a reputation for instability. Modern hardware has fixed most hardware problems, but there is work that needs to be done to make the firmware reliable. You can do this with "watchdog" scripts. I haven't had to reboot a router that is running our watchdog script.
