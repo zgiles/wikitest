@@ -1,5 +1,5 @@
 <div class="page-menu">
-Pages:
+Categories:
   <ul>
     {% assign cats = site.pages | where_exp: 'item','item.category' | map: 'category' | uniq | sort %} 
     {% for cat in cats %}
