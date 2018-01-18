@@ -22,15 +22,7 @@
       {% unless page.hidetitle %}
         <h2 class="title">{{ page.title }}</h2>
         <h6>
-          {% assign crumbpath = page.url | split: "." | first | replace_first: "/", "" | split: "/" %}
-          {% for crumb in crumbpath %}
-            {% if forloop.last %} 
-              <!-- {{ crumb | capitalize }} -->
-              {{ page.title }}
-            {% else %}
-              {{ crumb | capitalize }} > 
-            {% endif %}
-          {% endfor %}
+          {{ page.category }} > {{ page.title }}
         </h6>
       {% endunless %}
       {{ content }}
