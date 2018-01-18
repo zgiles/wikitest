@@ -5,14 +5,14 @@ Pages:
     {% for cat in cats %}
       <li class="has-sub">
         <a href="/{{cat}}" data-id="{{cat}}" class="section-anchor {% if forloop.first %}top-a{% endif %} {% if forloop.last %}bottom-a{% endif %}"><span>{{cat | capitalize}}</span></a>
-        <a id="hide-{{cat}}" href="#hide-{{cat}}" class="hide">(+)</a>
-        <a id="show-{{cat}}" href="#show-{{cat}}" class="show">(-)</a>
+        <a id="show-{{cat}}" href="#show-{{cat}}" class="show">(+)</a>
+        <a id="hide-{{cat}}" href="#hide-{{cat}}" class="hide">(-)</a>
           <ul id="{{cat}}-sublinks" class="details">
             {% assign subpages = site.pages | where: 'category',cat | sort:"title" %}
             {% for page in subpages %}
                 {% if page.title %}
                   <li>
-                    <a href="{{page.url | remove: '.html' }}"><span>{{page.title}}</span></a>
+                    <a href="{{page.url | remove: '.html' }}#show-{{cat}}"><span>{{page.title}}</span></a>
                   </li>
                 {% endif %}
             {% endfor %}

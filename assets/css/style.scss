@@ -145,19 +145,19 @@ section h2.title {
 }
 
 .details,
-.show,
-.hide:target {
+.hide,
+.show:target {
   display: none;
 }
 // .hide:target + .show,
-.hide:target ~ .details {
+.show:target ~ .details {
   display: block;
 }
-.hide:target + .show {
+.show:target + .hide {
   display: inline;
 }
 
-a.show, a.hide {
+a.hide, a.show {
  color: black;
  text-decoration: none; 
 }
